@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Code Fuel</title>
+  <title>CodeUniq IT Solutions</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -28,8 +28,8 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-    Theme Name: Code Fuel
-    Theme URL: https://bootstrapmade.com/Code Fuel-bootstrap-business-template/
+    Theme Name: CodeUniq
+    Theme URL: https://bootstrapmade.com/CodeUniq-bootstrap-business-template/
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
@@ -38,70 +38,150 @@
 <body>
 
   <!--==========================
-  Header
+    Header
   ============================-->
-  <header id="header" class="fixed-top">
-    <div class="container">
+  <header id="header">
+    <div class="container-fluid">
 
-      <div class="logo float-left">
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">CodeUniq</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <h1 class="text-light"><a href="#header"><span>Code Fuel</span></a></h1> -->
-        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
-      <nav class="main-nav float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#intro">Home</a></li>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav><!-- .main-nav -->
-      
+      </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
-    <div class="container">
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-      <div class="intro-img">
-        <img src="img/intro-img.svg" alt="" class="img-fluid">
-      </div>
+        <ol class="carousel-indicators"></ol>
 
-      <div class="intro-info">
-        <h2>We provide<br><span>solutions</span><br>for your Ideas!</h2>
-        <div>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          <a href="#services" class="btn-services scrollto">Our Services</a>
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>CodeUniq IT Solutions</h2>
+                <p>CodeUniq IT Solutions is an easy accessible hub for IT services and solutions. We have expert IT professionals with experience in providing and maintaining high quality IT services for business firms and corporate entities.</p>
+                <a href="#about" class="btn-get-started scrollto">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Andriod App Development</h2>
+                <p>Dedicated mobile app development team to deliver cool mobile apps. We also develop cross platform mobile apps using industry standard html5 mobile app frameworks.</p>
+                <a href="#services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Web Designing</h2>
+                <p>Creating website that looks great and work perfectly on desktops, mobiles and tablets. We design Website that is quick, simple, and tailored to meet your requirements.</p>
+                <a href="#services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Digital Marketing</h2>
+                <p>We are a team of professionally qualified Digital marketing experts helping businesses to improve their online visibility.</p>
+                <a href="#services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Project Team</h2>
+                <p>Your curriculum is missing a very important part - practical skills. You can still develop them easily with CodeUniq Project team</p>
+                <a href="#services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
 
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
     </div>
   </section><!-- #intro -->
 
   <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #featured-services -->
 
     <!--==========================
       About Us Section
@@ -111,74 +191,50 @@
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>CodeUniq IT solutions is an easy accessible hub for information technology services and solutions. We have expert IT professionals with experience in providing and maintaining high quality IT services for business firms and corporate entities. We keep highest quality standards and blend the latest innovations in our software development projects.CodeUniq IT solutions is equipped with highly dedicated and talented technical team to follow most latest software development methodologies for our projects.</p>
         </header>
 
-        <div class="row about-container">
+        <div class="row about-cols">
 
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                Help Candidates develop their skill so as to help them in software development according to the current industry standards.
+              </p>
             </div>
+          </div>
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Values</a></h2>
+              <p>
+                Knowing the needs of each and every candidate and helping them in their own way to become the best IT Professional he can be!
+              </p>
             </div>
+          </div>
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                To make India the coding expert, in spite of the best math and logic skilled people in India it still fail to be the best in software development.
+              </p>
             </div>
-
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about-img.svg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <div class="row about-extra">
-          <div class="col-lg-6 wow fadeInUp">
-            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
-            <p>
-              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
-            </p>
-            <p>
-              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
-            </p>
-          </div>
-        </div>
-
-        <div class="row about-extra">
-          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
-            <p>
-             Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt. 
-            </p>
-            <p>
-              Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
-            </p>
-            <p>
-              Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
-            </p>
-          </div>
-          
         </div>
 
       </div>
@@ -187,59 +243,45 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services" class="section-bg">
+    <section id="services">
       <div class="container">
 
-        <header class="section-header">
+        <header class="section-header wow fadeInUp">
           <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <p>CodeUniq IT Solutions is an easy accessible hub for IT services and solutions. We have expert IT professionals with experience in providing and maintaining high quality IT services for business firms and corporate entities. We keep highest quality standards and blend the latest innovations in our software development projects.</p>
         </header>
 
         <div class="row">
 
-          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <h4 class="title"><a href="">WEB DESIGN AND DEVELOPMENT</a></h4>
+            <p class="description">The appearance of your website make strong impression on the image of your company and your website is one of your most important mediums that can be used to reach new customers and generate more leads for your business. We offer unique and inexpensive website designs that sells your business. We are skilled in creating beautiful, user-friendly and engaging websites that would attract audience representing different walks of life. The responsive websites we create are compatible across all devices from a desktop to a tablet or smart phone so that the users get a full website experience on all devices.</p>
           </div>
-          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <h4 class="title"><a href="">WEB APPLICATIONS</a></h4>
+            <p class="description">We aims at creating powerful, secure and effective web applications that meets the exact requirements of our customers in an efficient manner without any compromise in the perfection. Our versatile, scalable and user-friendly web application development solutions are based on the superior programming practices, efficient framework programming, coding standards and guidelines. From performance, quality assurance, usability, security, to stress testing, we employ stringent quality testing measures and use most advanced tools to create robust web applications.</p>
           </div>
-
-          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+            <h4 class="title"><a href="">MOBILE APPLICATIONS</a></h4>
+            <p class="description">With changing technologies, mobile phones or devices are getting extremely 'Smart'. Mobile users are upgrading to smart phones rapidly and are using app to improve various aspects of their lives - be it games, productivity, travel, banking, entertainment or education. The mobile app development solutions offered by us will help you to create better business efficiencies. We execute mobile application development for different platforms such as iOS, Android and Windows mobile. For developing cross platform applications we are using technologies like PhoneGap.</p>
           </div>
-          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            <h4 class="title"><a href="">E-COMMERCE</a></h4>
+            <p class="description">As online marketing is gaining huge importance in today’s business world, several businesses are now looking at E-commerce solutions as the best way to keep a constant watch of the market place. The possibility of a mega store where you can get everything sitting home has lured people to visit these online stores massively. These websites can give you a wide exposure for your business. We understand this ever evolving market trend and design the best professionally customized E-commerce websites which will serve your competitive online business.</p>
           </div>
-
-          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
+            <h4 class="title"><a href="">ONLINE MARKETING</a></h4>
+            <p class="description">The internet has transformed business marketing. No matter what you do, the internet is likely to be at the heart of your marketing strategy. The goal of online marketing is to spread awareness about a business and its products or services via the Internet. We help your business grow through social media marketing which implements various social media networks in order to achieve marketing communication and branding goals. Social media marketing primarily covers activities involving social sharing of content, videos, and images for marketing purposes, as well as paid social media advertising.</p>
           </div>
-          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-people-outline"></i></div>
+            <h4 class="title"><a href="">PROJECT TEAM</a></h4>
+            <p class="description">The internet has transformed business marketing. No matter what you do, the internet is likely to be at the heart of your marketing strategy. The goal of online marketing is to spread awareness about a business and its products or services via the Internet. We help your business grow through social media marketing which implements various social media networks in order to achieve marketing communication and branding goals. Social media marketing primarily covers activities involving social sharing of content, videos, and images for marketing purposes, as well as paid social media advertising.</p>
           </div>
 
         </div>
@@ -248,83 +290,21 @@
     </section><!-- #services -->
 
     <!--==========================
-      Why Us Section
+      Call To Action Section
     ============================-->
-    <section id="why-us" class="wow fadeIn">
-      <div class="container">
-        <header class="section-header">
-          <h3>Why choose us?</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
-        </header>
-
-        <div class="row row-eq-height justify-content-center">
-
-          <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp">
-                <i class="fa fa-diamond"></i>
-              <div class="card-body">
-                <h5 class="card-title">Corporis dolorem</h5>
-                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp">
-                <i class="fa fa-language"></i>
-              <div class="card-body">
-                <h5 class="card-title">Voluptates dolores</h5>
-                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4">
-            <div class="card wow bounceInUp">
-                <i class="fa fa-object-group"></i>
-              <div class="card-body">
-                <h5 class="card-title">Eum ut aspernatur</h5>
-                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row counters">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
-          </div>
-  
-        </div>
-
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Call To Action</h3>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="cta-btn" href="#">Call To Action</a>
       </div>
-    </section>
+    </section><!-- #call-to-action -->
+
 
     <!--==========================
       Portfolio Section
     ============================-->
-    <section id="portfolio" class="clearfix">
+    <section id="portfolio"  class="section-bg" >
       <div class="container">
 
         <header class="section-header">
@@ -335,137 +315,147 @@
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Android</li>
+              <li data-filter=".filter-card">Marketing</li>
+              <li data-filter=".filter-web">Websites</li>
+              <li data-filter=".filter-web">Webs App</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">App 1</a></h4>
                 <p>App</p>
-                <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">Web 3</a></h4>
                 <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">App 2</a></h4>
                 <p>App</p>
-                <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">Card 2</a></h4>
                 <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">Web 2</a></h4>
                 <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">App 3</a></h4>
                 <p>App</p>
-                <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">Card 1</a></h4>
                 <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">Card 3</a></h4>
                 <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <figure>
+                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
               <div class="portfolio-info">
                 <h4><a href="#">Web 1</a></h4>
                 <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -478,78 +468,14 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="testimonials" class="section-bg">
-      <div class="container">
 
-        <header class="section-header">
-          <h3>Testimonials</h3>
-        </header>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-
-            <div class="owl-carousel testimonials-carousel wow fadeInUp">
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                </p>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-
-      </div>
-    </section><!-- #testimonials -->
 
     <!--==========================
       Team Section
     ============================-->
     <section id="team">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header wow fadeInUp">
           <h3>Team</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
@@ -634,134 +560,69 @@
     </section><!-- #team -->
 
     <!--==========================
-      Clients Section
+      Contact Section
     ============================-->
-    <section id="clients" class="section-bg">
-
+    <section id="contact" class="section-bg wow fadeInUp">
       <div class="container">
 
         <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact">
-      <div class="container-fluid">
-
-        <div class="section-header">
           <h3>Contact Us</h3>
+          <p>CodeUniq IT Solutions is an enthusiastic team of engineering students who needs to change the world and create space for them in the cyber space.</p>
         </div>
 
-        <div class="row wow fadeInUp">
+        <div class="row contact-info">
 
-          <div class="col-lg-6">
-            <div class="map mb-4 mb-lg-0">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26295.96126610814!2d75.65453850950344!3d11.557733959666512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x358dba59247ac6b5!2sCollege%20of%20Engineering%20Vadakara(CEV)!5e0!3m2!1sen!2sin!4v1567663181132!5m2!1sen!2sin" width="100%" height="312px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address><b>CodeUniq IT Solutions</b> <br>College of Engineering vadakara<br>Kozhikode,Kerala,India -673568</address>
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-5 info">
-                <i class="ion-ios-location-outline"></i>
-                <p>College of Engineering Vadakara</p>
-              </div>
-              <div class="col-md-4 info">
-                <i class="ion-ios-email-outline"></i>
-                <p>codefuel@gmail.com</p>
-              </div>
-              <div class="col-md-3 info">
-                <i class="ion-ios-telephone-outline"></i>
-                <p>+91 75599 22829</p>
-              </div>
-            </div>
-
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form>
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+917559922829">+91 75599 22829</a><br>
+                 <a href="tel:+918139042819">+91 81390 42819</a></p>
             </div>
           </div>
 
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:codeuniqprojects@gmail.com">codeuniqprojects@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
         </div>
 
       </div>
@@ -777,30 +638,32 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-info">
-            <h3>Code Fuel</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>CodeUniq</h3>
+            <p>CodeUniq IT Solutions is an easy accessible hub for IT services and solutions. We have expert IT professionals with experience in providing and maintaining high quality IT services for business firms and corporate entities. We keep highest quality standards and blend the latest innovations in our software development projects.</p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Code Fuel<br>
+              <b>CodeUniq Pvt Ltd. </b><br>
               College of Engineering Vadakara<br>
-              Kozhikode,Kerala,India <br>
-              <strong>Phone:</strong> +91 75599 22829<br>
-              <strong>Email:</strong> codefuel@gmail.com<br>
+              Vadakara,Kozhikode <br>
+              Kerala,India - 673568 <br>
+              <strong>Phone 1:</strong> +91 75599 22829<br>
+              <strong>Phone 2:</strong> +91 81390 42819<br>
+              <strong>Email:</strong> codeuniqprojects@gmail.com<br>
             </p>
 
             <div class="social-links">
@@ -815,7 +678,7 @@
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <p>Short Description</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
@@ -827,16 +690,16 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Code Fuel</strong>. All Rights Reserved
+        &copy; Copyright <strong>CodeUniq IT solutions</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Code Fuel
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=CodeUniq
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by <a href="#">CodeUniq IT solutions</a> -->
       </div>
     </div>
   </footer><!-- #footer -->
@@ -850,13 +713,15 @@
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
