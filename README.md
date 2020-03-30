@@ -1,2 +1,2 @@
-# CodeFuel
-Code Fuel is an online cummunity
+# Codeuniq
+Codeuniq is an online cummunity
